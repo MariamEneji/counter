@@ -35,7 +35,7 @@ function App() {
     
       <div className='h-screen w-screen  flex justify-center items-center bg-[#e6daeb]'>
 
-        <div className='h-[400px] w-3/4 md:w-1/2 shadow-indigo-800 shadow-2xl rounded-3xl flex justify-center flex-col items-center p-2 bg-slate-50 '> 
+        <div className='h-[400px] w-full md:w-1/2 shadow-indigo-800 shadow-2xl rounded-3xl flex justify-center flex-col items-center p-2 bg-slate-50 '> 
         <p className='p-8 text-xl'>Current Value:</p> 
         <h1 className='text-4xl font-bold'>{count}</h1>
 
